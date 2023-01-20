@@ -1,0 +1,65 @@
+<nav class="flex flex-wrap items-center justify-end w-full py-0 px-0 text-lg text-gray-700 bg-white">
+  <!-- logo -->
+  {% comment %}<div>{% endcomment %}
+    {% comment %}<a href="#">{% endcomment %}
+      {% comment %}Logo Here (SVG){% endcomment %}
+    {% comment %}</a>{% endcomment %}
+  {% comment %}</div>{% endcomment %}
+  <div>
+    <svg xmlns="<http://www.w3.org/2000/svg>" id="menu-button" class="h-6 w-6 cursor-pointer md:hidden block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+    </svg>
+  </div>
+  <div class="hidden w-full md:flex md:items-center" id="menu">
+    <ul
+            class="
+              text-base text-gray-700
+              w-full
+              justify-evenly
+              pt-4
+              md:flex
+              md:pt-0"
+    >
+      <li class="md:columns-3">
+        <a class="md:p-4 py-2 block hover:text-purple-400" href="/about"
+        >O nama</a
+        >
+      </li>
+      <li class="md:columns-3">
+        <a class="md:p-4 py-2 block hover:text-purple-400" href="/team"
+        >Tim</a
+        >
+      </li>
+      <li class="md:columns-3">
+        <a class="md:p-4 py-2 block hover:text-purple-400" href="/artists"
+        >Umetnici</a
+        >
+      </li>
+      <li class="md:columns-3">
+        <a class="md:p-4 py-2 block hover:text-purple-400" href="/projects"
+        >Projekti</a
+        >
+      </li>
+      <li class="md:columns-3">
+        <a class="md:p-4 py-2 block hover:text-purple-400" href="/partners"
+        >Partneri</a
+        >
+      </li>
+      <li class="md:columns-3">
+        <a class="md:p-4 py-2 block hover:text-purple-400" href="/press"
+        >Novosti</a
+        >
+      </li>
+      <li class="md:columns-3">
+        <a class="md:p-4 py-2 block hover:text-purple-400" href="/contact"
+        >Kontakt</a
+        >
+      </li>
+      <li class="md:columns-3">
+        <span id="toggleLang" class="md:p-4 py-2 block hover:text-purple-400"
+        >EN</span
+        >
+      </li>
+    </ul>
+  </div>
+</nav>

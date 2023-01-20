@@ -1,0 +1,15 @@
+.header-anchor {
+  text-decoration: none!important;
+}
+
+h1 > a.header-anchor {
+  font-weight: 800;
+}
+
+h2 > a.header-anchor {
+  font-weight: 700;
+}
+
+img {
+  margin: 0 auto;
+}
