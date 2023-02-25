@@ -13,3 +13,12 @@ h2 > a.header-anchor {
 img {
   margin: 0 auto;
 }
+
+.logo-img {
+  margin: 0;
+  width: 100%;
+}
+
+.content {
+  text-align: justify;
+}
